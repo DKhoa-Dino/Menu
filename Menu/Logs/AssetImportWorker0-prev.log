@@ -1,0 +1,718 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 8032 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/BT/Dev games/Menu
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65186
+Successfully changed project path to: E:/BT/Dev games/Menu
+E:/BT/Dev games/Menu
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10816] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 2075836328 [EditorId] 2075836328 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3US95F5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10816] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 2075836328 [EditorId] 2075836328 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3US95F5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 117.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/BT/Dev games/Menu/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005270 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 90.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Domain Reload Profiling:
+	ReloadAssembly (672ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (471ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004727 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BT\Dev games\Menu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BT\Dev games\Menu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1527ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1179ms)
+			LoadAssemblies (430ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (452ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3733 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (228.8 KB). Loaded Objects now: 4186.
+Memory consumption went from 142.5 MB to 142.3 MB.
+Total: 5.627000 ms (FindLiveObjects: 0.543100 ms CreateObjectMapping: 1.096700 ms MarkObjects: 3.662200 ms  DeleteObjects: 0.323200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 656114.498570 seconds.
+  path: Assets/Warped City Assets/Scenes/demo-warped-city.unity
+  artifactKey: Guid(2db09285101a648059e8348b1f870237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Scenes/demo-warped-city.unity using Guid(2db09285101a648059e8348b1f870237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2786b5b0f3c5e5b4dcb5ef8c726bf7') in 0.021292 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005099 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BT\Dev games\Menu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BT\Dev games\Menu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1541ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1168ms)
+			LoadAssemblies (298ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.4 KB). Loaded Objects now: 4189.
+Memory consumption went from 142.1 MB to 141.9 MB.
+Total: 4.509500 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.213500 ms MarkObjects: 3.724600 ms  DeleteObjects: 0.164800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.725886 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c38ded777c6eac716cf6ee885caa1') in 0.019736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.664341 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES
+  artifactKey: Guid(3e9636de1df6340ff9f4c28933d8fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES using Guid(3e9636de1df6340ff9f4c28933d8fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e12282e3e3722e6949e8c2729121b9e') in 0.008372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.543298 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT
+  artifactKey: Guid(0b32bb64076194cdc8c80b149b6dfb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT using Guid(0b32bb64076194cdc8c80b149b6dfb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10760f04c9798b671fff20ea0042f2e') in 0.010059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.532335 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/background
+  artifactKey: Guid(9bafc5530d5cc47dcb650fdd43c02374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/background using Guid(9bafc5530d5cc47dcb650fdd43c02374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6c14d42bf5acd2a0e3328f81080660') in 0.008920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027508 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/background/buildings-bg.png
+  artifactKey: Guid(37d1bdb3e1de647ae915d01a2b7def15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/background/buildings-bg.png using Guid(37d1bdb3e1de647ae915d01a2b7def15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a680043f302eeef58a7776e3064620f') in 0.120026 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005085 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BT\Dev games\Menu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BT\Dev games\Menu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.6 KB). Loaded Objects now: 4199.
+Memory consumption went from 146.4 MB to 146.2 MB.
+Total: 22.909700 ms (FindLiveObjects: 0.455300 ms CreateObjectMapping: 0.282500 ms MarkObjects: 21.819000 ms  DeleteObjects: 0.351300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005505 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BT\Dev games\Menu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BT\Dev games\Menu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1361ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1065ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.2 KB). Loaded Objects now: 4202.
+Memory consumption went from 146.4 MB to 146.2 MB.
+Total: 5.016600 ms (FindLiveObjects: 0.411200 ms CreateObjectMapping: 0.392000 ms MarkObjects: 3.953100 ms  DeleteObjects: 0.258900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004222 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\BT\Dev games\Menu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\BT\Dev games\Menu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.359 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1360ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1022ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.4 KB). Loaded Objects now: 4205.
+Memory consumption went from 146.5 MB to 146.3 MB.
+Total: 4.228900 ms (FindLiveObjects: 0.364200 ms CreateObjectMapping: 0.316200 ms MarkObjects: 3.174000 ms  DeleteObjects: 0.372800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12440.506290 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/background/Materials
+  artifactKey: Guid(e4ffa261962e23d43ae00f20c639d6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/background/Materials using Guid(e4ffa261962e23d43ae00f20c639d6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba63faf6ce4f5ad2e055a05e79273d1e') in 0.110117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.050617 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props
+  artifactKey: Guid(b54c8a11f7dfc49c4b4a393c9bc860db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props using Guid(b54c8a11f7dfc49c4b4a393c9bc860db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f26ed6977677617e2a87763b6e93d2') in 0.007637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.306063 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/antenna.png
+  artifactKey: Guid(7c2c0a20447e14bd0a4767191ddc7d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/antenna.png using Guid(7c2c0a20447e14bd0a4767191ddc7d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467f976aa5cc931897bd401f3f5092a2') in 0.775386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-small.png
+  artifactKey: Guid(9edee812d1564448d9a52b0472611b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-small.png using Guid(9edee812d1564448d9a52b0472611b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415c91d4ff01c2359b9309af1872fb81') in 0.059580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-floor.png
+  artifactKey: Guid(09d1aa2af774c4085b9f379c5092bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-floor.png using Guid(09d1aa2af774c4085b9f379c5092bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ee1413eb2af4df319bba77c6282e37') in 0.067713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.560615 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/monitorface
+  artifactKey: Guid(be2f43f50c53e42cc922cfcf17eacaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/monitorface using Guid(be2f43f50c53e42cc922cfcf17eacaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149487dd19ddfa88229c321de302d603') in 0.008062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020719 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/monitorface/monitor-face-1.png
+  artifactKey: Guid(448d3aba5d2244712a8acb1c7c051c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/monitorface/monitor-face-1.png using Guid(448d3aba5d2244712a8acb1c7c051c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9d44e163ee9110311c2e1c5f3c454d') in 0.027559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/monitorface/monitor-face-3.png
+  artifactKey: Guid(71da76ca76c9c4c02b2e1f45b2c35dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/monitorface/monitor-face-3.png using Guid(71da76ca76c9c4c02b2e1f45b2c35dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5833bb2f29e4f2e63ba71277b9a994e5') in 0.076452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.073627 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-sushi
+  artifactKey: Guid(b6af04e317b15485c934162fc6c91365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-sushi using Guid(b6af04e317b15485c934162fc6c91365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4ba66df251e1d54b272b7fb68ec8ee') in 0.008203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024950 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-sushi/banner-sushi-1.png
+  artifactKey: Guid(fe6890c81e672497f963f4b292a7050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-sushi/banner-sushi-1.png using Guid(fe6890c81e672497f963f4b292a7050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2232951558e0bd663757284d7eb2a7b1') in 0.041069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.357221 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side
+  artifactKey: Guid(46ce0a85ec9c0418f82fa06d2141c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side using Guid(46ce0a85ec9c0418f82fa06d2141c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035b9c40ae8298bbc15902014029d691') in 0.007631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015787 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side/banner-side-1.png
+  artifactKey: Guid(1423971c298b64565ac2014b97a82662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side/banner-side-1.png using Guid(1423971c298b64565ac2014b97a82662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a186177b9046fd9cb8f62a8e858b25') in 0.029705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side/banner-side-4.png
+  artifactKey: Guid(e20c9176086b94af3bdcf5158f6cfd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side/banner-side-4.png using Guid(e20c9176086b94af3bdcf5158f6cfd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb2165b57cfccb1c40d8f81a7da56fe') in 0.053201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.140679 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-scroll
+  artifactKey: Guid(136d53bc52bb147d49b473305b0b0874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-scroll using Guid(136d53bc52bb147d49b473305b0b0874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52eb0640dd48dea45d58c08cb067fbd7') in 0.006973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-scroll/banner-scroll-3.png
+  artifactKey: Guid(10874c17f15914f2f95c00efdccf6907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-scroll/banner-scroll-3.png using Guid(10874c17f15914f2f95c00efdccf6907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c24bda6c2d1c65da0ee9e672667f49') in 0.040912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-scroll/banner-scroll-2.png
+  artifactKey: Guid(ab86af47e722e4469aab2bcc38e6f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-scroll/banner-scroll-2.png using Guid(ab86af47e722e4469aab2bcc38e6f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97956f5e3018138889e37532632ae7d1') in 0.017624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.657551 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-neon
+  artifactKey: Guid(7bd5070b52c064cab9c5a4bf9f55dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-neon using Guid(7bd5070b52c064cab9c5a4bf9f55dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073a0c40067cc00002d84da950a649f2') in 0.011850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016776 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-neon/banner-neon-1.png
+  artifactKey: Guid(651479cc07fa5423fb129d992873995b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-neon/banner-neon-1.png using Guid(651479cc07fa5423fb129d992873995b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71046b09e0c86b49521299ca693709a3') in 0.049330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-neon/banner-neon-4.png
+  artifactKey: Guid(a0a3a0567001d4203bfdec3ec2095491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-neon/banner-neon-4.png using Guid(a0a3a0567001d4203bfdec3ec2095491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464712f4ff1d3de4c723523792c8c11c') in 0.039698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.430577 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-coke
+  artifactKey: Guid(50f58ca0adabc43a7a3b32a1c028d26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-coke using Guid(50f58ca0adabc43a7a3b32a1c028d26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd341f4270cc9d275017dd5c93eacb3d9') in 0.007074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023593 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-coke/banner-coke-1.png
+  artifactKey: Guid(88271ef8cb2f844a59750124ca3106a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-coke/banner-coke-1.png using Guid(88271ef8cb2f844a59750124ca3106a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d657e77c966af7134db1effb58c1ca5') in 0.032088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-coke/banner-coke-3.png
+  artifactKey: Guid(f1d96a02791e840bfa329a4a5b5b8f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-coke/banner-coke-3.png using Guid(f1d96a02791e840bfa329a4a5b5b8f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f481511b27746e8d9bca8b01e31860') in 0.035715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.901335 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big
+  artifactKey: Guid(67718ba3a2e704d8381607512b7df9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big using Guid(67718ba3a2e704d8381607512b7df9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e68f7548c0a436693a1a411dec3e9e') in 0.008105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053032 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-1.png
+  artifactKey: Guid(4db7d20bea57942e9bc03f26f30c64a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-1.png using Guid(4db7d20bea57942e9bc03f26f30c64a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba206603d4f21e570c5f984718a1fd0') in 0.046936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-3.png
+  artifactKey: Guid(0a6ca078b274e43859b20657ebda9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-3.png using Guid(0a6ca078b274e43859b20657ebda9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8144aa2839e7dd2d81e0868c02bf67c9') in 0.097784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.065407 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/player
+  artifactKey: Guid(ad37e3140676e4d56ba48e0870758827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/player using Guid(ad37e3140676e4d56ba48e0870758827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fdb147161a647698c1498b5bef2f6f') in 0.008168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.597712 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/vehicles/v-police.png
+  artifactKey: Guid(024ffe66a86ec4801aa4ec8eb8c4d942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/vehicles/v-police.png using Guid(024ffe66a86ec4801aa4ec8eb8c4d942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12bb5002528847666fb96e8309e101b') in 0.305916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/vehicles/v-truck.png
+  artifactKey: Guid(7dcf9689e6bb9415aa01184ca305c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/vehicles/v-truck.png using Guid(7dcf9689e6bb9415aa01184ca305c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2506d4fba7aba60bf2e2118a1d67575a') in 0.034834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.566767 seconds.
+  path: Assets/Warped City Assets/Artwork
+  artifactKey: Guid(34bbae92659a9409882cfb99b10a55c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork using Guid(34bbae92659a9409882cfb99b10a55c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764dc2cd089093301e3a3ae768cf4bed') in 0.007158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 799.838315 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc
+  artifactKey: Guid(69723ae10157d43c6bac9a25f7ee7cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc using Guid(69723ae10157d43c6bac9a25f7ee7cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47aa2f7139d6831745dd89cd5e0e2fe6') in 0.037719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091750 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/drone
+  artifactKey: Guid(47d8fba91ccdb4f6f8d1c9a3fde31dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/drone using Guid(47d8fba91ccdb4f6f8d1c9a3fde31dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ab1b2cf177bf284b838e4c2a73485c') in 0.006813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.239719 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/drone/drone-1.png
+  artifactKey: Guid(a1fc1786c427341769dba6c83feadde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/drone/drone-1.png using Guid(a1fc1786c427341769dba6c83feadde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752fe668be9f3f54fc9a6515347cb7b7') in 0.025746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/drone/drone-4.png
+  artifactKey: Guid(f579fd21158db4b9caa8430de17d94e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/drone/drone-4.png using Guid(f579fd21158db4b9caa8430de17d94e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4cfaf3ae6a0e7a2c0ca919e13aaff9') in 0.056219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/drone/drone-3.png
+  artifactKey: Guid(4040d1bf6a141427f85f43f7b555de63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/drone/drone-3.png using Guid(4040d1bf6a141427f85f43f7b555de63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea74d2a4299dfc996e6d10ac0fdd6707') in 0.024521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.145407 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion
+  artifactKey: Guid(1ea8f7d2387fe4429a0f99ceeadf6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion using Guid(1ea8f7d2387fe4429a0f99ceeadf6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabe58ed17a76409f5c799f6a31a46ba') in 0.029163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032389 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-1.png
+  artifactKey: Guid(6f962f3b4e75746d496c3010cd39cea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-1.png using Guid(6f962f3b4e75746d496c3010cd39cea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1589da01564bad856e6e2a5665cbfaae') in 0.084507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-4.png
+  artifactKey: Guid(b5fe33b9056c44d249e9b8fc43b6dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-4.png using Guid(b5fe33b9056c44d249e9b8fc43b6dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a5cddf99ee0d6bbe9e245610ec9ba4') in 0.059755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-5.png
+  artifactKey: Guid(afb130b24c5274a6182bb53c0d12e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-5.png using Guid(afb130b24c5274a6182bb53c0d12e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7dba079001315c90fe3903e5341b7a') in 0.021848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.079093 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/shot
+  artifactKey: Guid(70ee49b6d165d4924ada42e9f05a473d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/shot using Guid(70ee49b6d165d4924ada42e9f05a473d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a521cf36857530e15c51f7ad32ed656') in 0.026276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.090864 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/shot/shot-1.png
+  artifactKey: Guid(469f84998bda44331b9ac0072ec475ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/shot/shot-1.png using Guid(469f84998bda44331b9ac0072ec475ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1286ed6344a37508f66fc8e3489b323') in 0.077916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/shot/shot-3.png
+  artifactKey: Guid(d60765fdce94e4883ae3df53307278b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/shot/shot-3.png using Guid(d60765fdce94e4883ae3df53307278b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2537f9a2ec4ad50bc749fec3c7b91b') in 0.019840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.372146 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/shot-hit
+  artifactKey: Guid(2577a2a49967e445b95a0b9a10655ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/shot-hit using Guid(2577a2a49967e445b95a0b9a10655ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff8d0f267a958501187ce39985e463c') in 0.014394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068954 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/shot-hit/shot-hit-1.png
+  artifactKey: Guid(74b1f2f65f5d54fb79d714a16652e720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/shot-hit/shot-hit-1.png using Guid(74b1f2f65f5d54fb79d714a16652e720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f134105444ff5eb3c9de163f9b1955c') in 0.158787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.802303 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/turret
+  artifactKey: Guid(8f8a56751a50c4bbfb23d9d40a0cb0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/turret using Guid(8f8a56751a50c4bbfb23d9d40a0cb0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bb7523c04f642099aacf37679f7249') in 0.006642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067430 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/turret/turret-1.png
+  artifactKey: Guid(7880821ae0e694ff185fd812fdbe7efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/turret/turret-1.png using Guid(7880821ae0e694ff185fd812fdbe7efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecac57c8e9e5113676fb02722923fd0') in 0.108132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/turret/turret-3.png
+  artifactKey: Guid(466175ec6a63a4521b7b6e316d3a83d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/turret/turret-3.png using Guid(466175ec6a63a4521b7b6e316d3a83d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf5286d0926fc99c6fc9ea92942cb38') in 0.094406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Warped City Assets/Artwork/SPRITES/misc/turret/turret-5.png
+  artifactKey: Guid(b2303cbe932344ac6a18c0bd485d726b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/turret/turret-5.png using Guid(b2303cbe932344ac6a18c0bd485d726b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476f07dbec7c9880493ede75a2903adf') in 0.153611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1429.586117 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf99e70769e60835ea8aaf13943ba68') in 5.458658 seconds 
